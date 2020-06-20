@@ -1,6 +1,6 @@
 <!-- Feel free to change the width and height to your desired video size. -->
 
-<div class="embed-container">
+<!-- <div class="embed-container">
   <iframe
       src="https://www.youtube.com/embed/{{include.id}}"
       width="700"
@@ -9,3 +9,20 @@
       allowfullscreen="">
   </iframe>
 </div>
+ -->
+<figure>
+  <div class="video-wrap">
+    <div class="video-container">
+      <iframe
+        src="https://www.youtube.com/embed/{{include.id}}"
+        frameborder="0"
+        allowfullscreen="">
+      </iframe>
+    </div>
+  </div>
+  {% if include.caption %}
+  <figcaption>
+    {{include.caption}}
+  </figcaption>
+  {% endif%}
+</figure>
