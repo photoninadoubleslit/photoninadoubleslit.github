@@ -16,11 +16,11 @@ theme: jekyll-agency
 url    : "https://photoninadoubleslit.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Photon In A Double Slit 
+title      :  
 email      : photoninadoubleslit@gmail.com #this is also the email contact forms will go to
 description: "photoninadoubleslit.github.io"
 author     : A Photon
-# logo:     #optional, defaults to site title
+logo:     Photon In A Double Slit #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
 
