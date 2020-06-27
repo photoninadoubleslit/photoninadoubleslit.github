@@ -20,7 +20,7 @@ title      :  Photon In A Double Slit
 email      : photoninadoubleslit@gmail.com #this is also the email contact forms will go to
 description: "Photon In A Double Slit"
 author     : A Photon
-logo:     Photon #optional, defaults to site title
+logo: #optional, defaults to site title
   path: assets/img/piads_logo.jpg
   # height: 60 #height in px, defaults to 52px
 
