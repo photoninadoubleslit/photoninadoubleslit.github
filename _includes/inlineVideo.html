@@ -71,6 +71,19 @@ header .overlay {
 
   <script id="insert"></script>
 
+{% if site.analytics.google %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+	
+	gtag('config', '{{ site.analytics.google }}');
+  </script>
+  <!-- End Google Analytics -->
+{% endif %}
+
 </head>
 <body>
 <!--     	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
